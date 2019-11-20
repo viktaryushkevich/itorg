@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1e9e7;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.header__container {
+    height: 100vh;
+    background-image: url(../images/city-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.header__container-wrapper {
+    background-color: rgba(6, 56, 85, 0.65);
+    height: 100%;
+    background-size: cover;
+}
+
+main {
+    height: 100vh;
+}
+
+.main__container {
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+footer {
+    height: 20vh;
+}
+
+.footer__container {
+    height: 30vh;
+    background-color: #9accc3;
+}
+
